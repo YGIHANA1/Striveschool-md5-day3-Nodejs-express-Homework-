@@ -1,0 +1,29 @@
+{
+  "name": "striveschool-md5-day3-nodejs-express-homework-",
+  "version": "1.0.0",
+  "description": "Nodejs+express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -r dotenv/config ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YGIHANA1/Striveschool-md5-day3-Nodejs-express-Homework-.git"
+  },
+  "author": "Yannick Gihana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YGIHANA1/Striveschool-md5-day3-Nodejs-express-Homework-/issues"
+  },
+  "homepage": "https://github.com/YGIHANA1/Striveschool-md5-day3-Nodejs-express-Homework-#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "uniqid": "^5.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
